@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C3AC0817263BCE6600DAE78A /* BonusCardView in Frameworks */ = {isa = PBXBuildFile; productRef = C3AC0816263BCE6600DAE78A /* BonusCardView */; };
+		C3AC081A263BD4CA00DAE78A /* APIIProBonus in Frameworks */ = {isa = PBXBuildFile; productRef = C3AC0819263BD4CA00DAE78A /* APIIProBonus */; };
 		C3F3B3D82639AAF800CB6AAE /* APICombineServiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F3B3D72639AAF800CB6AAE /* APICombineServiceApp.swift */; };
 		C3F3B3DA2639AAF800CB6AAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F3B3D92639AAF800CB6AAE /* ContentView.swift */; };
 		C3F3B3DC2639AAFA00CB6AAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3F3B3DB2639AAFA00CB6AAE /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C3AC0814263BCC8800DAE78A /* BonusCardView */ = {isa = PBXFileReference; lastKnownFileType = folder; path = BonusCardView; sourceTree = "<group>"; };
+		C3AC0818263BD41000DAE78A /* APIIProBonus */ = {isa = PBXFileReference; lastKnownFileType = folder; path = APIIProBonus; sourceTree = "<group>"; };
 		C3F3B3D42639AAF800CB6AAE /* APICombineService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APICombineService.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3F3B3D72639AAF800CB6AAE /* APICombineServiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICombineServiceApp.swift; sourceTree = "<group>"; };
 		C3F3B3D92639AAF800CB6AAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -27,17 +31,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3AC0817263BCE6600DAE78A /* BonusCardView in Frameworks */,
+				C3AC081A263BD4CA00DAE78A /* APIIProBonus in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C3AC0815263BCE6600DAE78A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C3F3B3CB2639AAF800CB6AAE = {
 			isa = PBXGroup;
 			children = (
+				C3AC0818263BD41000DAE78A /* APIIProBonus */,
+				C3AC0814263BCC8800DAE78A /* BonusCardView */,
 				C3F3B3D62639AAF800CB6AAE /* APICombineService */,
 				C3F3B3D52639AAF800CB6AAE /* Products */,
+				C3AC0815263BCE6600DAE78A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +101,10 @@
 			dependencies = (
 			);
 			name = APICombineService;
+			packageProductDependencies = (
+				C3AC0816263BCE6600DAE78A /* BonusCardView */,
+				C3AC0819263BD4CA00DAE78A /* APIIProBonus */,
+			);
 			productName = APICombineService;
 			productReference = C3F3B3D42639AAF800CB6AAE /* APICombineService.app */;
 			productType = "com.apple.product-type.application";
@@ -328,6 +348,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C3AC0816263BCE6600DAE78A /* BonusCardView */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BonusCardView;
+		};
+		C3AC0819263BD4CA00DAE78A /* APIIProBonus */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = APIIProBonus;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C3F3B3CC2639AAF800CB6AAE /* Project object */;
 }
